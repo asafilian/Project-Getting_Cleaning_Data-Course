@@ -89,9 +89,7 @@ The inputs of this steps are the following data frames:
 The output of this step is a data frame called 'ds_merged', which is the merged version of the given data sets.
 To get it, we do as follows.
 1. merge the training and data sets to get X_merged: 
-	
-X_merged <- rbind(X_train, X_test)
-
+	X_merged <- rbind(X_train, X_test)
 2. merge the trainig and test label data sets to get y_merged:
 	
 	y_merged <- rbind(y_train, y_test)
@@ -169,7 +167,7 @@ To get it, the script does the following steps.
 	names(ds_tidy_internal) <- gsub("Body", "body-", names(ds_tidy_internal))
 
 6. 'Gravity' is replaced by 'gravity-':
-
+...
 	names(ds_tidy_internal) <- gsub("Gravity", "gravity-", names(ds_tidy_internal))
 7. 'Acc' is replaced by 'accelerometer':
 
