@@ -28,7 +28,7 @@ In the following, we show what they are and how to get them:
 
 	A data frame which should be read from 'features.txt' using the 'read.table' function with parameter 'stringsAsFactors = FALSE'. It represents the list of all features.
 	
-	features <- read.table("features.txt", stringsAsFactors = FALSE)
+features <- read.table("features.txt", stringsAsFactors = FALSE)
 2. 'activities':
 
 	A data frame which should be read from 'activity_labels.txt'. It links the class labels with their activity name.
