@@ -37,11 +37,11 @@ The obtained dataset has been randomly partitioned into two sets, where 70% of t
 
 ### Cleaning of the data
 The "run_analysis.R" does the following tasks on the raw data:
-	1. Merges the training and test data set:
-	2. Extracts only the measurements on the mean and standard deviation for each measurement. 
-	3. Uses descriptive activity names to name the activities in the data set
-	4. Appropriately labels the data set with descriptive variable names. 
-	5. From the data set in step 4, creates a second, independent tidy data set with the average of
+1. Merges the training and test data set:
+2. Extracts only the measurements on the mean and standard deviation for each measurement. 
+3. Uses descriptive activity names to name the activities in the data set
+4. Appropriately labels the data set with descriptive variable names. 
+5. From the data set in step 4, creates a second, independent tidy data set with the average of
 
 It will also write a desired tidy data set into a file called "ds_tidy.txt".
 See README.md for a detailed information. 	
