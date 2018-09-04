@@ -23,19 +23,16 @@ The obtained dataset has been randomly partitioned into two sets, where 70% of t
 ## Creating the tidy data file
 
 ### Guide to create the tidy data file
-1. Download the zip file (see the above link) and extract it. 
-	Unzip it and make your working directory to the corresponding directory. 
+1. Download the zip file (see the above link) and extract it. Unzip it and make your working directory to the corresponding directory. 
    The folder would include the following data sets:
-   (1) "features.txt", which represents the list of all features.
-   (2) "activity_labels.txt", which links the class labels with their activity name.
-   (3) "train/X_train.txt", which is the training set. 
-   (4) "train/subject_train" each of whose rows identifies the subject who performed the activity for each training sample. 
-			Its range is from 1 to 30.
-   (5) "train/y_train", which represents the training labels. 
-   (6) "test/X_test" to an object, which represents the test set. 
-   (7) "test/subject_test" each of whose rows identifies the subject who performed the activity for each test sample.
-			Its range is from 1 to 30.
-   (8) "test/y_test", which represents the test labels. 
+   * "features.txt", which represents the list of all features.
+   * "activity_labels.txt", which links the class labels with their activity name.
+   * "train/X_train.txt", which is the training set. 
+   * "train/subject_train" each of whose rows identifies the subject who performed the activity for each training sample. Its range is from 1 to 30.
+   * "train/y_train", which represents the training labels. 
+   * "test/X_test" to an object, which represents the test set. 
+   * "test/subject_test" each of whose rows identifies the subject who performed the activity for each test sample. Its range is from 1 to 30.
+   * "test/y_test", which represents the test labels. 
 		 
 
 ### Cleaning of the data
