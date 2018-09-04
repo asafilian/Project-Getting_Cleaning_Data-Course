@@ -120,7 +120,8 @@ General description of the file including:
 	[67] "fft-body-body-gyroscope-jerk-magnitude-mean()"    
 	[68] "fft-body-body-gyroscope-jerk-magnitude-std()"
 - Summary of the data: 
-	   activity            subject     time-body-accelerometer-mean()-x
+
+	 activity            subject     time-body-accelerometer-mean()-x
 	 Length:180         Min.   : 1.0   Min.   :0.2216                  
 	 Class :character   1st Qu.: 8.0   1st Qu.:0.2712                  
 	 Mode  :character   Median :15.5   Median :0.2770                  
