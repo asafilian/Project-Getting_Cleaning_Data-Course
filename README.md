@@ -35,31 +35,33 @@ A data frame which should be read from 'activity_labels.txt'. It links the class
 	
 	activities <- read.table("activity_labels.txt")
 3. 'X_train':
- 
-	A data frame which must be read from 'train/X_train.txt'. It includes the training examples. 
+
+A data frame which must be read from 'train/X_train.txt'. It includes the training examples. 
 
 	X_train <- read.table("train/X_train.txt")
 4. 'y_train': 
-	A data frame which must be read from 'train/y_train.txt'. It represents the training labels.
+
+A data frame which must be read from 'train/y_train.txt'. It represents the training labels.
 	
 	y_train <- read.table("train/y_train.txt")
 5. 'X_test':
 
-	A data frame which must be read from 'test/X_test.txt'.  It includes the test examples.
+A data frame which must be read from 'test/X_test.txt'.  It includes the test examples.
 	
 	X_test <- read.table("test/X_test.txt")
 6. 'y_test':
 
-	A data frame which must be read from 'test/y_test.txt'. It represents the test labels.
+A data frame which must be read from 'test/y_test.txt'. It represents the test labels.
 	
 	y_test <- read.table("test/y_test.txt")
 7. 'subject_train':
 
-	A data frame which must be read from 'train/subject_train.txt'.  Each row identifies the subject who performed the activity for the corresponding training example.
+A data frame which must be read from 'train/subject_train.txt'.  Each row identifies the subject who performed the activity for the corresponding training example.
 
 	subject_train <- read.table("train/subject_train.txt")
 8. 'subject_test':
-	A data frame which must be read from 'test/subject_test.txt'. Each row identifies the subject who performed the activity for the corresponding test example.
+
+A data frame which must be read from 'test/subject_test.txt'. Each row identifies the subject who performed the activity for the corresponding test example.
 	
 	subject_test <- read.table("test/subject_test.txt")
 	
