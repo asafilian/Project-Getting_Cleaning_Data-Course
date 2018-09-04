@@ -1,3 +1,4 @@
+# Codebook
 ---
 title: "Codebook: Getting and Cleaning Data Course Project"
 author: "Aliakbar Safilian"
@@ -9,7 +10,7 @@ The purpose of this project is to demonstrate my ability to collect, work with, 
 The goal is to prepare tidy data that can be used for later analysis. 
   
 
-##Study design and data processing
+## Study design and data processing
 
 ###Collection of the raw data
 The raw data set represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at:
