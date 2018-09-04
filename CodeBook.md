@@ -888,6 +888,7 @@ raw data:
 
 [2] https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-I have used a template to prepare this Codebook (but have lost the link) 
-I have also taken advantage of some discussion on the course discussion forum. 
+I have used a template to prepare this Codebook (but have lost the link).
+ 
+I have also taken advantage of some threads on the course discussion forum. 
 
