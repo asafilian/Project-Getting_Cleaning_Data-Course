@@ -12,7 +12,7 @@ The goal is to prepare tidy data that can be used for later analysis.
 
 ## Study design and data processing
 
-###Collection of the raw data
+### Collection of the raw data
 The raw data set represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 Here is the raw data for the project:
@@ -20,9 +20,9 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
 
-##Creating the tidy datafile
+## Creating the tidy datafile
 
-###Guide to create the tidy data file
+### Guide to create the tidy data file
 1. Download the zip file (see the above link) and extract it. 
 	Unzip it and make your working directory to the corresponding directory. 
    The folder would include the following data sets:
@@ -38,7 +38,7 @@ The obtained dataset has been randomly partitioned into two sets, where 70% of t
    (8) "test/y_test", which represents the test labels. 
 		 
 
-###Cleaning of the data
+### Cleaning of the data
 The "run_analysis.R" does the following tasks on the raw data:
 	1. Merges the training and test data set:
 	2. Extracts only the measurements on the mean and standard deviation for each measurement. 
@@ -49,7 +49,7 @@ The "run_analysis.R" does the following tasks on the raw data:
 It will also write a desired tidy data set into a file called "ds_tidy.txt".
 See README.md for a detailed information. 	
 
-##Description of the variables in the 'ds_tidy.txt' file
+## Description of the variables in the 'ds_tidy.txt' file
 General description of the file including:
  - Dimensions of ds_tidy is 180 x 68
  - There are 68 variables as follows: 
@@ -882,7 +882,7 @@ This variable represents the average value of the corresponding variable for eac
 	'Fast Fourier Transform' (FFT) applied on the 'standard deviation' value of the 'magnitude' of the 'body' part of the 'jerk' signal of 'gyroscope'.  
 
 
-##Sources
+## Sources
 raw data:
 [1] http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 [2] https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
