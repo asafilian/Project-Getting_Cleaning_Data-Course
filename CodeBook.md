@@ -885,6 +885,7 @@ This variable represents the average value of the corresponding variable for eac
 raw data:
 
 [1] http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
 [2] https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 I have used a template to prepare this Codebook (but have lost the link) 
