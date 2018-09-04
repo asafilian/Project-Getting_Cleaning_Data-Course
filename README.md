@@ -10,7 +10,7 @@ There is an R script file, 'run_analysis.R', which reads the raw data sets and o
 In this document, we see how this script works. 
 
 
-## PREPARATION: 
+## PREPARATION
 1. Download the raw data sets from the following link:
 	https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 2. Extract the zip file, and make it your working directory. 
