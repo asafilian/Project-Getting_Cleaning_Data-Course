@@ -33,7 +33,7 @@ The obtained dataset has been randomly partitioned into two sets, where 70% of t
    * "test/X_test" to an object, which represents the test set. 
    * "test/subject_test" each of whose rows identifies the subject who performed the activity for each test sample. Its range is from 1 to 30.
    * "test/y_test", which represents the test labels. 
-		 
+2. Load 'run_analysis.R' to get a desired tidy data.		 
 
 ### Cleaning of the data
 The "run_analysis.R" does the following tasks on the raw data:
