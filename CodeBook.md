@@ -20,7 +20,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
 
-## Creating the tidy datafile
+## Creating the tidy data file
 
 ### Guide to create the tidy data file
 1. Download the zip file (see the above link) and extract it. 
