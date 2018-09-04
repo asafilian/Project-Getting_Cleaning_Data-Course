@@ -49,7 +49,7 @@ See README.md for a detailed information.
 ## Description of the variables in the 'ds_tidy.txt' file
 General description of the file including:
  - Dimensions of ds_tidy is 180 x 68
- - There are 68 variables as follows: 
+ - There are 68 variables as follows:
 	[1] "activity"                                         
 	[2] "subject"                                          
 	[3] "time-body-accelerometer-mean()-x"                 
