@@ -91,6 +91,7 @@ To get it, we do as follows.
 1. merge the training and data sets to get X_merged: 
 	
 	X_merged <- rbind(X_train, X_test)
+	
 2. merge the trainig and test label data sets to get y_merged:
 	
 	y_merged <- rbind(y_train, y_test)
