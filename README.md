@@ -1,8 +1,8 @@
 # Project: Getting and Cleaning Data Course
 
 ---
-title: "README: Getting and Cleaning Data Course Project"
-author: "Aliakbar Safilian"
+title: "README: Getting and Cleaning Data Course Project", 
+author: "Aliakbar Safilian", 
 date: "Sep 3, 2018"
 ---
 
