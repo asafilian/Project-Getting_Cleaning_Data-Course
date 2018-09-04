@@ -1,4 +1,4 @@
-# Project: Getting_Cleaning_Data-Course
+# Project: Getting and Cleaning Data Course
 
 ---
 title: "README: Getting and Cleaning Data Course Project"
