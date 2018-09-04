@@ -11,17 +11,17 @@ In this document, we see how this script works.
 
 
 ## PREPARATION: 
-(1) Download the raw data sets from the following link:
+1. Download the raw data sets from the following link:
 	https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-(2) Extract the zip file, and make it your working directory. 
+2. Extract the zip file, and make it your working directory. 
 
 - The script includes the following parts: 
 
-## loading the 'dplyr' library.
+## loading the 'dplyr' library
 	library(dplyr)
   We need dplyr to be able to use the group_by and summarize_all functions. 
 	
-## READING DATA: 
+## READING DATA 
 The 'run_analysis' reads 8 data sets, which together represent the raw data.
 In the following, we show what they are and how to get them: 
 (1) 'features':
@@ -58,7 +58,7 @@ In the following, we show what they are and how to get them:
 	Each row identifies the subject who performed the activity for the corresponding test example.
 
 
-## INITIALIZATION.
+## INITIALIZATION
 	We give appropriate names to 'subjects' and 'labels' as follows. 
 	names(subject_train) <- "subject"
     names(subject_test) <- "subject"
@@ -66,7 +66,7 @@ In the following, we show what they are and how to get them:
 	names(y_test) <- "activity"
 	This would make out life easier when later we want to merge the data sets in STEP 1
 
-## STEP1.
+## STEP1
 In this part, we merge the given data sets. This would address the first step of the project.
 The inputs of this steps are the following data frames: 
 	(1) X_train, 
@@ -86,7 +86,7 @@ To get it, we do as follows.
     (4) merge subject_merged, X_merged, and y_merged to get ds_merged:
 		ds_merged <- cbind(subject_merged, X_merged, y_merged) 
 
-## STEP2.
+## STEP2
 In this part, we extract mean & st columns. This step addresses the second task of the project.
 The inputs of this steps are the following data frames: 
 	(1) ds_merged, 
@@ -100,7 +100,7 @@ To get it, the script follows the following steps.
 	(2) select the appropriate columns from ds_merged to get 'ds_merged_sel':
 		ds_merged_sel <- ds_merged %>% select("subject", cols_ms, "activity")
 		
-## STEP3.
+## STEP3
 In this part, we use descriptive activity names to name the activities in the data set. This would address the third task of the project.
 The inputs of this steps are the following data frames:
 	(1) ds_merged_sel, 
@@ -117,7 +117,7 @@ To get it, the script follows the following steps.
 	(3) replace the values of the 'activity' column in ds_merged_sel with extracted activity names and get a new data frame called ds_merged_sel_act:
 		ds_merged_sel_act <- ds_merged_sel %>% mutate(activity = new_activity)
 		
-## STEP4.
+## STEP4
 In this part, we appropriately labels the data set with descriptive variable names. This would address the forth task of the project.
 The inputs of this step are the following data frames:
 	(1) 'ds_merged_sel_act',
@@ -150,7 +150,7 @@ To get it, the script does the following steps.
     (11) to be sure that all the letter are in lower-case:
 		names(ds_tidy_internal) <- tolower(names(ds_tidy_internal))
 
-## STEP5.
+## STEP5
 This part, from the data set in step 4, creates a second, independent tidy data set with the
 average of each variable for each activity and each subject. This would address the final task of the project.
 The input of this step is the 'ds_tidy_internal' data frame.
