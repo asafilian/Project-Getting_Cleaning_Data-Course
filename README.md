@@ -24,10 +24,10 @@ In this document, we see how this script works.
 ## READING DATA 
 The 'run_analysis' reads 8 data sets, which together represent the raw data.
 In the following, we show what they are and how to get them: 
-(1) 'features':
-	A data frame which should be read from 'features.txt' using the 'read.table' function with parameter 'stringsAsFactors = FALSE':
-		features <- read.table("features.txt", stringsAsFactors = FALSE)
-	It represents the list of all features.
+1. 'features': 
+
+	A data frame which should be read from 'features.txt' using the 'read.table' function with parameter 'stringsAsFactors = FALSE'. It represents the list of all features.
+	- features <- read.table("features.txt", stringsAsFactors = FALSE)
 (2) 'activities':
 	A data frame which should be read from 'activity_labels.txt'. 
 		activities <- read.table("activity_labels.txt")
